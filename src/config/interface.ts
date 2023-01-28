@@ -1,0 +1,9 @@
+export interface Config {
+  GWIN_URL_NOPERMISSION: string
+  GWIN_URL_TENANT: string
+  GWIN_URL_LOGIN: string
+  GWIN_URL_TEAM_PRODUCT_RECORD: string
+  GWIN_URL_TEAM_PRODUCT_DETAIL: string
+  GWIN_URL_TEAM_BASIC_USER: string
+  GWIN_URL_UMENG: string
+}

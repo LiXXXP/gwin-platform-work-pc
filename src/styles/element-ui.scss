@@ -1,0 +1,102 @@
+// cover some element-ui styles
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+
+.el-message-box__status {
+  font-size: 44px !important;
+}
+.el-message-box__status.el-message-box-icon--warning {
+  color: #FF9D00;
+}
+
+.el-button {
+  font-size: 14px;
+  border: 0 !important;
+  background: #3860F4 !important; 
+  &:hover {
+    background: #3C7DFF !important;
+  }
+}
+
+.product-box {
+  .confirm-btn {
+    width: 80%;
+    height: 44px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+
+.apply-box {
+  .el-message-box__message {
+    color: #606A78;
+    font-size: 14px;
+  }
+  .el-message-box__btns {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  .confirm-btn {
+    width: 165px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .cancel-btn {
+    width: 165px;
+    height: 40px;
+    font-size: 16px;
+    color: #606A78;
+    margin-left: 22px;
+    box-sizing: border-box;
+    border: 1px solid #606A78 !important;
+    background: #fff !important;
+    &:hover {
+      color: #999;
+      border: 1px solid #999 !important;
+      background: #fff !important;
+    }
+  }
+}
+
